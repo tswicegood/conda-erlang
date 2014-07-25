@@ -1,0 +1,20 @@
+package:
+  name: erlang
+  version: 17.1
+
+source:
+  fn: otp_src_17.1.tar.gz
+  md5: 9c90706ce70e01651adde34a2b79bf4c
+  url: https://packages.erlang-solutions.com/erlang/esl-erlang-src/otp_src_17.1.tar.gz
+
+requirements:
+  build:
+    - readline
+    - openssl
+  run:
+    - readline
+    - openssl
+
+about:
+  home: http://www.erlang.org/
+  license: Erlang Public License 1.1 (http://www.erlang.org/EPLICENSE)
