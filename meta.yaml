@@ -7,6 +7,10 @@ source:
   md5: 9c90706ce70e01651adde34a2b79bf4c
   url: https://packages.erlang-solutions.com/erlang/esl-erlang-src/otp_src_17.1.tar.gz
 
+test:
+  commands:
+    - erl -version
+
 requirements:
   build:
     - readline
